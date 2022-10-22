@@ -1,0 +1,281 @@
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <title>Rocky Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+
+    <header class="container-fluid bg-white position-sticky top-0">
+      <ul
+        class="nav nav mb-3 py-3 container"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item text-primary" role="presentation">
+          <a
+            class="nav-link active "
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+            >INICIO</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link "
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >CARTA</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link "
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >PEDIDOS</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active container"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+        <div class="contenedor">
+         <img src="./img/Logo Rocky.png" class="logo">
+         
+        </div>
+          <div id="bodyy">
+
+            <!-- PRIMER BLOQUE -->
+
+            <div id="primerbloque">
+              <!-- <h1 id="titulo1">ROCKY PIZZA</h1> -->
+              <div id="acercade">
+                  <div id="borde"></div>
+                  <p class="descripcion_quienesSomos"> Rockys Pizza inicio como un emprendimiento familiar desde la cocina de nuestro hogar un sábado 03 de octubre durante la pandemia del 2020. El nombre y el logo está inspirado en la mascota de la familia que es un perro llamado Rocky. 
+                  Inicialmente solo trabajábamos durante los sábados y domingos, pero luego con el correr del tiempo fuimos cambiado nuestros días de atención de jueves a domingos, de 19 a 23 hs. Ofrecemos el servicio de entrega a domicilio o pasar a buscar.
+                  Nuestras pizzas y sándwiches son 100% caseros, las prepizzas y los panes son de elaboración propia hechos en el día para garantizar su frescura. Todas nuestras pizzas vienen en mitades de 2 sabores cada una.
+                  Este mes de Octubre cumplimos 2 años y esperemos seguir cumpliendo muchos años mas!
+                  Bienvenidos!</p>
+               </div>
+            </div>
+
+            <!-- SEGUNDO BLOQUE -->
+
+          <div id="segundobloque">
+              <div id="primeraColumna">
+                <img src="./img/Papas1.jpeg" width="400px" alt=""> 
+                <!-- <a href="https://api.whatsapp.com/send/?phone=595982939005" target="_blank">  INTENTANDO ARREGLAR EL PROBLEMA -->
+                <img src="./img/Finde.jpeg" width="400px" alt="">
+                <img src="./img/papas2.jpeg" width="400px" alt=""> 
+
+              </div>
+              
+        </div>
+      </div>
+        </div>
+   
+         <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+          Has Añadido un pedido al carrito!
+          </div>
+          <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+            Has cancelado tu pedido!
+          </div>
+        <div
+          class="tab-pane fade  "
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+        >
+          <h2 class="titulo1">Carta</h2> 
+  
+          <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+  
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA ESPECIAL</h5>
+                <img src="./img/especialdelacasa.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, queso muzarella, mitad cebollas salteadas, panceta,aceitunas.</p>
+                  <h5 class="text-primary">Precio: <span class="precio"> 30000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA DE JAMON</h5>
+                <img src="./img/Napolitana.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, mitad jamon y queso, mitad napolitana con jamon,aceitunas.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">30000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA MIXTA</h5>
+                <img src="./img/jamon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, mitad jamon con morrones, mitad calabresa.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">35000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA DE PEPPERONI</h5>
+                <img src="./img/Pepperoni.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, pepperoni,muzarella,aceitunas.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">30000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA DE CARNE</h5>
+                <img src="./img/Pollo Katy.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, carne desmenuzado,muzarella, queso catupiry,papas,aceitunas.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">35000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA DE POLLO</h5>
+                <img src="./img/Pollo y Carne.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa cesera, pollo desmenuzado,muzarella,queso catupiry,aceitunas.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">30000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary"> LA DE ROCKYSABOR</h5>
+                <img src="./img/tres sabores.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, mitad la de carne, panceta, muzarella, pepperoni, aceitunas.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">35000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center text-primary">LA DE VEGETALES</h5>
+                <img src="./img/Vegetales.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Masa y salsa casera, rucula, tomates cherry, choclo,palmito,cebolla morada,aceitunas verdes y negras.</p>
+                  <h5 class="text-primary">Precio: <span class="precio">30000</span></h5>
+                  <div class="d-grid gap-2">
+                  <button  class="btn btn-primary button">Añadir a Carrito</button>
+                </div>
+                </div>
+              </div>
+            </div>
+  
+  
+          </div>
+  
+      </div>
+      <div
+        class="tab-pane fade carrito"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+      <br>
+      <table class="table table table-dark table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx 4" >
+        <div class="col">
+            <h3 class="itemCartTotal">TOTAL GUARANIES </h3>
+            <div class="col d-flex justify content-end">
+                <button class="btn btn-success">NO FUNCIONA</button>
+
+            </div>
+
+      </div>
+
+      <footer class="bg-dark p-3 mt-5">
+        <p class="text-center m-0 text-muted">BRIAN HURTADO</p>
+      </footer>
+      
+    <!--PARA HACER FUNCIONAR EL NAV-->
+      <script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"
+    ></script> 
+
+    <!-- JavaScript Bundle with Popper --> 
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./scipt.js"></script>
+  </body>
